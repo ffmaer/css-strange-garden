@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: black;
+            display: inline-block;
+            color: aqua;
+            font-size: 10rem;
+            margin-left: 2vw;
+            margin-top: 2vh;
+        }
+        .sticky{
+            color:chartreuse;
+            position: sticky;
+            top: 10vh;
+        }
+    </style>
+
+</head>
+<body>
+    <script>
+        for(let i=0;i<100;i++){
+            let div = document.createElement("div")
+            div.textContent = i
+            div.className="div"+i
+            if(i%8 === 0){
+                div.classList.add("sticky")
+            }
+            document.querySelector("body").append(div)
+        }
+
+
+    </script>
+</body>
+</html>
