@@ -8,5 +8,5 @@ https://ffmaer.github.io/css-strange-garden/content.html
 https://ffmaer.github.io/css-strange-garden/center.html
 
 
-## Cool CSS Resources
+## Creative CSS Resources
 http://flexboxfroggy.com/
