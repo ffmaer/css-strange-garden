@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tag{
+            background-color: black;
+            color: wheat;
+            display: inline; /* top and bottom margins are not respected. */
+            /* https://www.digitalocean.com/community/tutorials/css-display-inline-vs-inline-block */
+            margin: 1vw; 
+        }
+    </style>
+</head>
+<body>
+    <h1>You accessed this page on:</h1>
+    <p>(The information is stored in your <a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage">Window.sessionStorage</a>.)</p>
+    <p class="tag">&lt;ol type=&quot;I&quot;&gt; (This is an inline element, whose top and bottom margins were not respected.)</p>
+    <ol type="I"></ol>
+    <p class="tag">&lt;/ol&gt;</p>
+    <script>
+        let access_count = sessionStorage.getItem("access_count")
+        if(access_count === null){
+            sessionStorage.setItem("access_count", "0")
+            access_count = 0
+        }
+        access_count++
+        sessionStorage.setItem("access_count",access_count)
+        sessionStorage.setItem(`access_${access_count}`,new Date().toLocaleString())
+        let accesses = Object.keys(sessionStorage).filter(x=>x.match(/^access_[0-9]+$/)).sort((a,b)=>a.split("_")[1]-b.split("_")[1])
+        for(let item of accesses){
+            let li = document.createElement("li")
+            li.innerText = sessionStorage.getItem(item)
+            document.querySelector("ol").append(li)
+        }
+    </script>
+</body>
+</html>
