@@ -13,5 +13,7 @@ https://ffmaer.github.io/css-strange-garden/shu-dao-nan.html
 
 https://ffmaer.github.io/css-strange-garden/local-storage.html
 
+https://ffmaer.github.io/css-strange-garden/session-storage.html
+
 ## Creative CSS Resources
 http://flexboxfroggy.com/
