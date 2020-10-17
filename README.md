@@ -21,5 +21,7 @@ https://ffmaer.github.io/css-strange-garden/writing-mode.html
 
 https://ffmaer.github.io/css-strange-garden/sonnet1.html
 
+https://ffmaer.github.io/css-strange-garden/float.html
+
 ## Creative CSS Resources
 http://flexboxfroggy.com/
