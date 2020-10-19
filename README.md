@@ -23,6 +23,10 @@ https://ffmaer.github.io/css-strange-garden/sonnet1.html
 
 https://ffmaer.github.io/css-strange-garden/float.html
 
+![](https://github.com/ffmaer/css-strange-garden/raw/gh-pages/images/ruby.png)
+
+https://ffmaer.github.io/css-strange-garden/ruby.html
+
 ## Creative CSS Resources
 http://flexboxfroggy.com/
 
