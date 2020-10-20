@@ -29,6 +29,7 @@ https://ffmaer.github.io/css-strange-garden/ruby.html
 
 ## Creative CSS Resources
 http://flexboxfroggy.com/
+https://andreasbm.github.io/web-skills/
 
 ## CSS Tools
 https://grid.layoutit.com/
