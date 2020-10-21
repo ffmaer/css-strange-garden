@@ -34,4 +34,11 @@ http://flexboxfroggy.com/
 https://andreasbm.github.io/web-skills/
 
 ## CSS Tools
+
 https://grid.layoutit.com/
+
+## CSS References
+
+https://developer.mozilla.org/en-US/docs/Web/CSS
+
+https://css-tricks.com/
