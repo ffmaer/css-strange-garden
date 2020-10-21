@@ -33,6 +33,8 @@ http://flexboxfroggy.com/
 
 https://andreasbm.github.io/web-skills/
 
+https://en.wikipedia.org/wiki/The_Zen_of_CSS_Design
+
 ## CSS Tools
 
 https://grid.layoutit.com/
