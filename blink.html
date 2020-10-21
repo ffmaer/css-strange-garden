@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* code adapted from: https://web.archive.org/web/https://en.wikipedia.org/wiki/Blink_element */ 
+        blink, .blink {
+            color: black;
+            -webkit-animation: blink 1s step-end infinite;
+            -moz-animation: blink 1s step-end infinite;
+            -o-animation: blink 1s step-end infinite;
+            animation: blink 1s step-end infinite;
+          }
+          
+          @-webkit-keyframes blink {
+            33% { color: blue }
+            67% { color: red }
+          }
+          
+          @-moz-keyframes blink {
+            33% { color: blue }
+            67% { color: red }
+          }
+          
+          @-o-keyframes blink {
+            33% { color: blue }
+            67% { color: red }
+          }
+          
+          @keyframes blink {
+            33% { color: blue }
+            67% { color: red }
+          }
+    </style>
+</head>
+<body>
+    <pre>
+        <blink>
+            "Blink's naming was influenced by the non-standard presentational blink HTML element.
+            
+            Blink has, contrary to its name, never functionally supported the element." - <a href="https://web.archive.org/web/20201021053536/https://en.wikipedia.org/wiki/Blink_element">wiki</a>
+
+            CSS animations blink the texts here.
+        </blink>    
+    </pre>
+</body>
+</html>
