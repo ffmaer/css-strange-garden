@@ -27,6 +27,8 @@ https://ffmaer.github.io/css-strange-garden/float.html
 
 https://ffmaer.github.io/css-strange-garden/ruby.html
 
+https://ffmaer.github.io/css-strange-garden/blink.html
+
 ## Creative CSS Resources
 
 http://flexboxfroggy.com/
