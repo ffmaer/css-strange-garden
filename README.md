@@ -33,17 +33,13 @@ https://ffmaer.github.io/css-strange-garden/blink.html
 
 https://ffmaer.github.io/css-strange-garden/svg.html
 
-## Creative CSS Resources
+## Creative CSS
 
 http://flexboxfroggy.com/
 
 https://andreasbm.github.io/web-skills/
 
-## CSS Tools
-
 https://grid.layoutit.com/
-
-## CSS References
 
 https://developer.mozilla.org/en-US/docs/Web/CSS
 
