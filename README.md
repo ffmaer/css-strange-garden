@@ -29,6 +29,10 @@ https://ffmaer.github.io/css-strange-garden/ruby.html
 
 https://ffmaer.github.io/css-strange-garden/blink.html
 
+![](https://github.com/ffmaer/css-strange-garden/raw/gh-pages/images/svg.png)
+
+https://ffmaer.github.io/css-strange-garden/svg.html
+
 ## Creative CSS Resources
 
 http://flexboxfroggy.com/
