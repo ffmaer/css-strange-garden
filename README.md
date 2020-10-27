@@ -29,17 +29,17 @@ https://ffmaer.github.io/css-strange-garden/ruby.html
 
 https://ffmaer.github.io/css-strange-garden/blink.html
 
-## Creative CSS Resources
+![](https://github.com/ffmaer/css-strange-garden/raw/gh-pages/images/svg.png)
+
+https://ffmaer.github.io/css-strange-garden/svg.html
+
+## Creative CSS
 
 http://flexboxfroggy.com/
 
 https://andreasbm.github.io/web-skills/
 
-## CSS Tools
-
 https://grid.layoutit.com/
-
-## CSS References
 
 https://developer.mozilla.org/en-US/docs/Web/CSS
 
