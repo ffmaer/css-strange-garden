@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let params = (new URL(document.location)).searchParams
+        for (let p of params) {
+            console.log(p)
+        }
+        if(params.get("p1")!=="1"){
+            for(let i=0;i<10;i++){
+                params.append("p"+i,i)
+            }
+            document.location = document.location+"?"+params.toString()
+        }
+    </script>
+    <pre>
+        let params = (new URL(document.location)).searchParams
+        for (let p of params) {
+            console.log(p)
+        }
+    </pre>
+</body>
+</html>
