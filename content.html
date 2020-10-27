@@ -6,7 +6,7 @@
     <title>Document</title>
     <style>
         li{
-            font-size: 10vw;
+            font-size: 1vw;
         }
         li:before{
             content: "🎃";
@@ -17,20 +17,26 @@
         a:visited{
             /* For privacy reasons, the styles that can be modified using this selector are very limited. 
             https://developer.mozilla.org/en-US/docs/Web/CSS/%3Avisited */
-            color: aliceblue;
+            color: red;
         }
     </style>
 </head>
 <body>
+    <pre>
+    li:before{
+        content: "🎃";
+    }
+    li:after{
+        content: "😷";
+    }
+    </pre>
     <script>
-        for(let i=0;i<5;i++){
+        for(let i=0;i<99;i++){
             let div = document.createElement("li")
             div.innerHTML = `<a href="#${i}">${i}</a>`
             div.className="li"+i
             document.querySelector("body").append(div)
         }
-
-
     </script>
 </body>
 </html>
