@@ -48,3 +48,5 @@ https://css-tricks.com/
 https://alligator.io/css/
 
 http://www1.plurib.us/svg_gallery/
+
+https://css-tricks.com/tools-visualize-edit-svg-paths-kinda/
