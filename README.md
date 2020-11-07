@@ -33,6 +33,10 @@ https://ffmaer.github.io/css-strange-garden/blink.html
 
 https://ffmaer.github.io/css-strange-garden/svg.html
 
+![](https://github.com/ffmaer/css-strange-garden/raw/gh-pages/images/bday.png)
+
+https://ffmaer.github.io/css-strange-garden/bday.html
+
 ## Creative CSS
 
 http://flexboxfroggy.com/
