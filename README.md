@@ -37,6 +37,8 @@ https://ffmaer.github.io/css-strange-garden/svg.html
 
 https://ffmaer.github.io/css-strange-garden/bday.html
 
+https://ffmaer.github.io/css-strange-garden/transition.html
+
 ## Creative CSS
 
 http://flexboxfroggy.com/
