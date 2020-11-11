@@ -41,6 +41,8 @@ https://ffmaer.github.io/css-strange-garden/transition.html
 
 ## Creative CSS
 
+https://www.cssdesignawards.com/
+
 http://flexboxfroggy.com/
 
 https://andreasbm.github.io/web-skills/
